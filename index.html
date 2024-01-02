@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+	<div class="box">
+		<h1 id="h1">Add</h1>
+		<div class="add">
+			<input type="text" id="ipt" />
+			<div class="modes">
+				<input type="checkbox" id="mode" name="mode" onclick="mudar()">
+
+				<label for="mode" id="labe"></label>
+			</div>
+
+		</div>
+		<ul id="list">
+		</ul>
+
+		<button id="limpar" onclick="document.getElementById('list').innerHTML = ''">Erase</button>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
